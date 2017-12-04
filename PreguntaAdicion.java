@@ -5,10 +5,6 @@
  */
 package procesos;
 
-/**
- *
- * @author USUARIO
- */
 public class PreguntaAdicion implements PreguntaEntera{
     private int a,b;
     public PreguntaAdicion() {
