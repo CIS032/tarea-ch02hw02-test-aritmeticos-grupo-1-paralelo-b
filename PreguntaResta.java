@@ -9,9 +9,9 @@ package procesos;
  *
  * @author USUARIO
  */
-public class PreguntaResta implements PreguntaEntera{
+public class PreguntaResta implements PreguntaEntera{//Clase implemetada de la interfaz PreguntaEntera
     private int a,b;
-    public PreguntaResta() {
+    public PreguntaResta() {//Constructor
         a=(int)(Math.random()*50+1);
         b=(int)(Math.random()*50);
     }
