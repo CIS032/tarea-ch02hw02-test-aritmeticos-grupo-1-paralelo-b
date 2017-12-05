@@ -5,9 +5,11 @@ import javax.swing.JOptionPane;
 
 public class Principal {
     public static void main(String[] args) {
-        Procesos.generarPreguntaRespuestas();
+        Procesos.generarPreguntaRespuestas();//Llama al métdo que se encuentra en la clase Proceso 
         String[] preg = Procesos.getPreguntas();
         int[] res = Procesos.getRespuestas();
+        //En las dos líneas anteriores de código al ser .get lo que realiza es que llama al método Pregunta o Respuesta respectivamente 
+        //que sirve para mostrar los atributos requeridos.
         int[] resUsuario = new int[res.length];
         int total=0;
         String historial ="\t\t\t[Test Aritmético]\n\nPREGUNTA\t       R.CORRECTA\tR.USUARIO\tPUNTAJE\n";
