@@ -5,6 +5,8 @@ package procesos;
  *
  * @author USUARIO
  */
+//La Clase PreguntaMultiplicacion implemeta la interfaz PreguntaEntera 
+//en la cual en esta clase se debe implementar se de implementar los métodos definidos
 public class PreguntaMultiplicacion implements PreguntaEntera{
 //Multiplicacion
     private int a,b;
