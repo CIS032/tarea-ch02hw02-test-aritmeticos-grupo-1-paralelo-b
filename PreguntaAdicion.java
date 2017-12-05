@@ -16,7 +16,7 @@ public class PreguntaAdicion implements PreguntaEntera{
     public  void  prueba(){
         System.out.println(a+" + "+b);
     }
-    
+    //sds
      public String getPregunta() {//presentación de la pregunta 
         return "¿Cuanto es "+a+" + " +b+ "?";
     }
