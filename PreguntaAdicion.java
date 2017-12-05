@@ -7,11 +7,13 @@ package procesos;
 //Adición
 public class PreguntaAdicion implements PreguntaEntera{
     private int a,b;
-    public PreguntaAdicion() {//aquí se generan los números que a continuación se utilizará en la operación
+    //aquí se generan los números que a continuación se utilizará en la operación
+    public PreguntaAdicion() {
         a=(int)(Math.random()*50+1);
         b=(int)(Math.random()*50);
     }
-    public  void  prueba(){//String de la pregunta
+    //String de la pregunta
+    public  void  prueba(){
         System.out.println(a+" + "+b);
     }
     
