@@ -5,6 +5,9 @@
  */
 package procesos;
 //Adición
+
+//La clase PreguntaAdicion implemetada de la interfaz PreguntaEntera 
+//en la cual en esta clase se debe implementar se de implementar los métodos definidos
 public class PreguntaAdicion implements PreguntaEntera{
     private int a,b;
     //aquí se generan los números que a continuación se utilizará en la operación
