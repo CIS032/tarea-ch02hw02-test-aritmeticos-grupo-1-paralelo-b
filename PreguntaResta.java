@@ -9,7 +9,8 @@ package procesos;
  *
  * @author USUARIO
  */
-public class PreguntaResta implements PreguntaEntera{//Clase implemetada de la interfaz PreguntaEntera
+public class PreguntaResta implements PreguntaEntera{
+    //Clase implemetada de la interfaz PreguntaEntera en la cual en esta clase se debe implementar se de implementar los métodos definidos por la Interfaz
     private int a,b;
     public PreguntaResta() {//Constructor
         a=(int)(Math.random()*50+1);
