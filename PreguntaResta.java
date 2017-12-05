@@ -17,9 +17,11 @@ public class PreguntaResta implements PreguntaEntera{
         b=(int)(Math.random()*50);
     }
      public String getPregunta() {
-        return "¿Cuanto es "+b+" - " +a+ "?";
+        return "¿Cuanto es "+b+" - " +a+ "?";//Lo que genera es q se presente a traves de un JOptionPane la pregunta a realizarsele al usuario
     }
     public int getRespuestaCorrecta() {
         return b-a;
+        //Lo que retorna es la respuesta correcta a la pregunta realizada
+        //para que más tarde en la clase Principal pueda realizarse su comparación y determinar si es corretca o incorrecta
     }
 }
