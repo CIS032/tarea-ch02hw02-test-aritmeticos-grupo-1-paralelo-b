@@ -33,6 +33,8 @@ public class Procesos {
             multiplicacion = new PreguntaMultiplicacion();
             preguntas[cont]=multiplicacion.getPregunta();
             respuestas[cont]=multiplicacion.getRespuestaCorrecta();
+            //Aqui llama a los métodos que se encuentran en la clase PreguntaResta para realizar la verificación de la pregunta
+            // y así mimso sube el coontador para q puedan realizarse un total de 10 preguntas.
         }
     }
 }
