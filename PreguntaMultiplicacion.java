@@ -8,7 +8,8 @@ package procesos;
 public class PreguntaMultiplicacion implements PreguntaEntera{
 //Multiplicacion
     private int a,b;
-    public PreguntaMultiplicacion() {// Se generan los numeros aleatoriamente para la multiplicacion
+    public PreguntaMultiplicacion() {//CONSTRUCTOR  
+        // Se generan los numeros aleatoriamente para la multiplicacion
         a=(int)(Math.random()*50+1);
         b=(int)(Math.random()*50);
     }
